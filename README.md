@@ -1,6 +1,6 @@
 # Portfolio website [React Project]
 
-## Live Preview: [Open Link][preview]
+## Live Preview: [https://sayalimartal.netlify.app/][preview]
 
 ![](./ReadMeImages/ReadMeBanner.png)
 
@@ -9,6 +9,7 @@
 This is code for my porfolio. I've used React JS for this project. This is a fully responsive design including all my personal information.
 
 ## Technologies / libraries used
+
 - React JS
 - CSS
 - HTML
@@ -18,5 +19,6 @@ This is code for my porfolio. I've used React JS for this project. This is a ful
 - React Icons
 
 ## Commands to install dependencies and run the code
+
 - npm install
 - npm start
