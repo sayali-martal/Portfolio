@@ -27,6 +27,7 @@ const FooterStyle = styled.div`
     margin-top: 5rem;
     .para {
       margin-left: 0;
+      max-width: none;
     }
   }
   @media only screen and (max-width: 768px) {
