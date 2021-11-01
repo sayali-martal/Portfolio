@@ -22,6 +22,9 @@ const AboutItemStyles = styled.div`
     background-color: var(--deep-dark);
     padding: 1rem;
     border-radius: 8px;
+    .para {
+      max-width: inherit;
+    }
   }
   @media only screen and (max-width: 768px) {
     gap: 1rem;
