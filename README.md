@@ -1,10 +1,10 @@
 # Portfolio website [React Project]
 
-## Live Preview: [https://sayalimartal.netlify.app/][preview]
+## Live Preview: https://sayalimartal.netlify.app/
 
 ![](./ReadMeImages/ReadMeBanner.png)
 
-## Project Details
+## Project details
 
 This is code for my porfolio. I've used React JS for this project. This is a fully responsive design including all my personal information.
 
