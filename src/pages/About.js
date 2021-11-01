@@ -124,8 +124,8 @@ export default function About() {
               />
               <AboutInfoItem title="Database" items={['SQL', 'MongoDB']} />
               <AboutInfoItem
-                title="Version Control"
-                items={['Git', 'Bitbucket', 'Sourcetree']}
+                title="Version Ctrl"
+                items={['Git', 'Bitbucket', 'Sourcetree', 'Gitlab']}
               />
               <AboutInfoItem
                 title="Servers"
