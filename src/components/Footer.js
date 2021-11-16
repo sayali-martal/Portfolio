@@ -71,11 +71,6 @@ export default function Footer() {
                 title: 'Projects',
                 path: '/projects',
               },
-              {
-                type: 'Link',
-                title: 'Contact',
-                path: '/contact',
-              },
             ]}
           />
         </div>

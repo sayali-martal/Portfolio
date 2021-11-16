@@ -19,6 +19,8 @@ const ProjectSectionStyle = styled.div`
   }
   .swiper-container {
     padding-top: 8rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
     max-width: 100%;
   }
   .swiper-button-prev,
@@ -35,12 +37,20 @@ const ProjectSectionStyle = styled.div`
     color: var(--gray-1);
     border-radius: 8px;
   }
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    box-shadow: 0px 0px 5px var(--gray-1);
+  }
   .swiper-button-next {
     right: 0;
+    margin-right: 0.5rem;
   }
   .swiper-button-prev::after,
   .swiper-button-next::after {
     font-size: 2rem;
+  }
+  .swiper-slide-next {
+    padding-right: 0.5rem;
   }
   @media only screen and (max-width: 768px) {
     .projects__allItems {
@@ -90,6 +100,7 @@ export default function ProjectsSection() {
                     title={project.name}
                     img={project.img}
                     desc={project.desc}
+                    link={project.link}
                   />
                 </SwiperSlide>
               );

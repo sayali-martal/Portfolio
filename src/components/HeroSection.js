@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import HeroImg from '../assets/images/hero.jpg';
-import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import PText from './PText';
@@ -166,7 +165,6 @@ export default function HeroSection() {
               develope websites and I'm looking work in the field of machine
               learning.
             </PText>
-            <Button btnText="see my work" btnLink="/projects" />
           </div>
           <div className="hero__social">
             <div className="hero__social__indicator">
