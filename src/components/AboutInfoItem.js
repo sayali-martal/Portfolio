@@ -5,7 +5,7 @@ import PText from './PText';
 const AboutItemStyles = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: ${(props) => props.alignItems};
   justify-content: flex-start;
   position: relative;
   margin-top: 3rem;
@@ -40,9 +40,10 @@ const AboutItemStyles = styled.div`
 export default function AboutInfoItem({
   title = 'Title',
   items = ['HTML', 'CSS'],
+  alignItems = 'flex-start',
 }) {
   return (
-    <AboutItemStyles>
+    <AboutItemStyles alignItems={alignItems}>
       <h1 className="title">{title}</h1>
       <div className="items">
         {items.map((item, index) => (

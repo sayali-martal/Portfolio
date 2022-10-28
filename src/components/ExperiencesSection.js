@@ -8,7 +8,6 @@ import experiences from '../assets/data/experiences';
 
 const ExperienceSectionStyles = styled.div`
   overflow-x: hidden;
-  padding: 10rem 0;
   text-align: center;
   .experience__wrapper {
     position: relative;

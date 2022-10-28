@@ -25,8 +25,13 @@ export default function FooterCol({
     },
     {
       type: 'Link',
-      title: 'About',
-      path: '/about',
+      title: 'Skills',
+      path: '/skills',
+    },
+    {
+      type: 'Link',
+      title: 'Resume',
+      path: '/resume',
     },
   ],
 }) {

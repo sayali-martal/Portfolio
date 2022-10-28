@@ -80,13 +80,15 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a full stack developer from Mumbai, India. I create desktop web
-            tools. I love to code and like to learn new technologies. I'm
-            looking forward to work on new challenges.
+            Performance-driven and motivated Full Stack Developer with almost 5
+            years of extensive experience in participating in all phases of
+            software development. Possess a strong attention to detail,
+            well-developed time management skills, and ability to complete all
+            projects within schedule and in a timely manner.
           </PText>
           <div className="aboutSection__buttons">
-            <Button btnText="My Work" btnLink="/projects" />
-            <Button btnText="Read More" btnLink="/about" outline />
+            <Button btnText="My Work" btnLink="/experience" />
+            <Button btnText="Skills" btnLink="/skills" outline />
           </div>
         </div>
         <div className="aboutSection__right">

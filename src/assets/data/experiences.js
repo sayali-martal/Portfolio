@@ -45,6 +45,11 @@ const experiences = [
     designation: 'Full stack developer',
     client: 'Fractal, India | Verizon, USA',
     desc: [
+      'Developed new design and adding new features in a webtool using React JS, Express JS, Sequelize and PostgreSQL on data having more than 5 million rows.',
+      'Designed and developed user authorization system with admin as well as user panel to grant and remove user access.',
+      'Single handedly created analytics project to capture user behavior and tracking metrices.',
+      'Performed indexing on tables to reduce the API response time and optimized the code to fetch the data without getting timeout error.',
+      'Revamped data seeding process to take half hour, down from the 5 hours it took earlier.',
       'Worked on migrating UI of web application, AIDE from figma designs. Used react JS, CSS, flexbox, HTML for migration.',
       'Developed additional functionalities and tools into the react project. The webapp was made using react context and react component styles.',
     ],

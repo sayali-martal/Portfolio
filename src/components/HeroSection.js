@@ -1,14 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.jpg';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 import PText from './PText';
 
 const HeroStyles = styled.div`
   .hero {
-    height: 100vh;
-    min-height: 1000px;
+    height: 50vh;
+    min-height: 500px;
     width: 100%;
     text-align: center;
     display: flex;
@@ -30,15 +29,8 @@ const HeroStyles = styled.div`
       color: var(--white);
     }
   }
-  .hero__img {
-    max-width: 900px;
-    width: 100%;
-    height: 600px;
-    margin: 0 auto;
-    border: 2px solid var(--gray-1);
-  }
   .hero__info {
-    margin-top: -18rem;
+    margin-top: 9rem;
     padding: 0 5rem;
   }
   .hero__social,
@@ -156,14 +148,14 @@ export default function HeroSection() {
             <span>Hello, This is</span>
             <span className="hero__name">Sayali Martal</span>
           </h1>
-          <div className="hero__img">
+          {/* <div className="hero__img">
             <img src={HeroImg} alt="" />
-          </div>
+          </div> */}
           <div className="hero__info">
             <PText>
-              I am a full stack developer with 4 years of experience. I like to
-              develope websites and I'm looking work in the field of machine
-              learning.
+              I am a full stack developer from Mumbai, India. I create
+              desktop/mobile web tools. I love to code and like to learn new
+              technologies. I'm looking forward to work on new challenges.
             </PText>
           </div>
           <div className="hero__social">

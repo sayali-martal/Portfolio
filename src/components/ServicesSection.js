@@ -47,13 +47,13 @@ export default function ServicesSection() {
           />
           <ServicesSectionItem
             icon={<MdShowChart />}
-            title="D3 charts"
-            desc="Can create different D3 charts."
+            title="Charts"
+            desc="Have extensive experience in using D3 JS and recharts."
           />
           <ServicesSectionItem
             icon={<MdHttps />}
             title="Python API"
-            desc="Can create rest APis using python."
+            desc="Can design and develope rest APis using python."
           />
           <ServicesSectionItem
             icon={<MdViewColumn />}

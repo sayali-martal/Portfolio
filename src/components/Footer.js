@@ -57,14 +57,14 @@ export default function Footer() {
             heading="Important Links"
             links={[
               {
-                title: 'Home',
-                path: '/',
                 type: 'Link',
+                title: 'Experience',
+                path: '/experience',
               },
               {
                 type: 'Link',
-                title: 'About',
-                path: '/about',
+                title: 'Skills',
+                path: '/skills',
               },
               {
                 type: 'Link',
@@ -107,16 +107,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>
-            © 2021 - Sayali Martal | Designed By{' '}
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.linkedin.com/in/ashutosh-shinde-102905163/"
-            >
-              Ashutosh Shinde
-            </a>{' '}
-          </PText>
+          <PText>© 2021 - Sayali Martal</PText>
         </div>
       </div>
     </FooterStyle>
