@@ -136,17 +136,6 @@ export default function NavMenu() {
         </li>
         <li>
           <NavLink
-            to="/projects"
-            onClick={() => setShowNav(!showNav)}
-            role="button"
-            onKeyDown={() => setShowNav(!showNav)}
-            tabIndex={0}
-          >
-            Projects
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
             to="/skills"
             onClick={() => setShowNav(!showNav)}
             role="button"
@@ -154,6 +143,17 @@ export default function NavMenu() {
             tabIndex={0}
           >
             Skills
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to="/projects"
+            onClick={() => setShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => setShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Projects
           </NavLink>
         </li>
         <li>
