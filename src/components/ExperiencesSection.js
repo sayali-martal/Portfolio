@@ -43,6 +43,7 @@ const ExperienceSectionStyles = styled.div`
   }
   .arrows {
     margin-top: 2rem;
+    margin-bottom: 0.2rem;
     display: flex;
     align-items: center;
     justify-content: center;

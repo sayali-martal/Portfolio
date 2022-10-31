@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+import LinkdinLogo from '../assets/images/LinkdinLogo.jpg';
+import GithubLogo from '../assets/images/GithubLogo.png';
 import PText from './PText';
 
 const HeroStyles = styled.div`
@@ -98,9 +100,6 @@ const HeroStyles = styled.div`
         font-size: 4.5rem;
       }
     }
-    .hero__img {
-      height: 300px;
-    }
     .hero__info {
       margin-top: 3rem;
     }
@@ -148,9 +147,6 @@ export default function HeroSection() {
             <span>Hello, This is</span>
             <span className="hero__name">Sayali Martal</span>
           </h1>
-          {/* <div className="hero__img">
-            <img src={HeroImg} alt="" />
-          </div> */}
           <div className="hero__info">
             <PText>
               I am a full stack developer from Mumbai, India. I create
@@ -171,7 +167,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    GH
+                    <img src={GithubLogo} alt="GH" />
                   </a>
                 </li>
                 <li>
@@ -180,7 +176,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    LI
+                    <img src={LinkdinLogo} alt="LI" />
                   </a>
                 </li>
               </ul>
