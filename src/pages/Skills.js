@@ -73,10 +73,6 @@ export default function Skills() {
                 items={['Apache', 'AWS', 'Netlify', 'PM2']}
               />
               <AboutInfoItem
-                title="Servers"
-                items={['Apache', 'AWS', 'Netlify', 'PM2']}
-              />
-              <AboutInfoItem
                 title="Version Ctrl"
                 items={['Github', 'Bitbucket', 'Sourcetree', 'Gitlab']}
               />
