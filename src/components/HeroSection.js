@@ -145,7 +145,7 @@ export default function HeroSection() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Sayali Martal</span>
+            <span className="hero__name">SAYALI MARTAL</span>
           </h1>
           <div className="hero__info">
             <PText>
