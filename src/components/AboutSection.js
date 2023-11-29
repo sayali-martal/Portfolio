@@ -80,7 +80,7 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            Performance-driven and motivated Full Stack Developer with almost 5
+            Performance-driven and motivated Full Stack Developer with almost 6
             years of extensive experience in participating in all phases of
             software development. Possess a strong attention to detail,
             well-developed time management skills, and ability to complete all

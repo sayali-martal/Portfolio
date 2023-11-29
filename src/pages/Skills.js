@@ -65,8 +65,12 @@ export default function Skills() {
                 ]}
               />
               <AboutInfoItem
+                title="Database"
+                items={['SQL', 'PostgreSQL', 'Big query', 'MongoDb']}
+              />
+              <AboutInfoItem
                 title="Frameworks"
-                items={['Flask', 'NPM', 'Node']}
+                items={['Flask', 'NPM', 'Node', 'SQL-bricks']}
               />
               <AboutInfoItem
                 title="Servers"

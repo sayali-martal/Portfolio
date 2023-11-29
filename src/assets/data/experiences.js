@@ -53,6 +53,7 @@ const experiences = [
       'Interacted with client partners directly to get to know the product requirements, designed structure of the required features and implemented them',
       'Worked on migrating UI of web application from figma designs. Used react JS, CSS, flexbox, HTML for migration.',
       'Developed additional functionalities and tools into the react project. The webapp was made using the react context and the react component styles.',
+      'Migrated the system backend from pre-existing PostgreSQL and Sequelize data structure to big query and SQL-bricks based data structure.',
     ],
   },
 ];
