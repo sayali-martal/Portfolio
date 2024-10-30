@@ -30,7 +30,7 @@ const experiences = [
     designation: 'Full stack developer',
     client: 'Dynalog | Seed, UAE | KGK, Hong Kong | Novita, India | Irtech',
     desc: [
-      'Mentored a team of 2 junior developers.',
+      'Mentored a team of 3 junior developers.',
       'Worked closely with the finance team to build BI Assisted tool for giving companies insights using Angular JS.',
       'Utilized Flask Rest Framework to create APIs for the tool and later reduced the time taken to load the data by 80-90%.',
       'Developed PNL statement and ERP system web tool to process real time data and help clients get rid of excel sheets.',
@@ -45,6 +45,10 @@ const experiences = [
     designation: 'Full stack developer',
     client: 'Fractal, India | Verizon, USA',
     desc: [
+      'Led a team of 2 junior developers, ensuring project delivery and code quality.',
+      'Modularized legacy code into reusable widget libraries, automating processes.',
+      'Integrated OpenAI and PaLM models into a Python-based tool to provide automated question-response capabilities.',
+      'Revamped UI and functionality by migrating systems, improving performance and user experience',
       'Developed new design and adding new features in a webtool using React JS, Express JS, Sequelize and PostgreSQL on data having more than 5 million rows.',
       'Designed and developed user authorization system with admin as well as user panel to grant and remove user access.',
       'Single handedly created analytics project to capture user behavior and tracking metrices.',

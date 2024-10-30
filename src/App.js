@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Experience from './pages/Experience';
+import Achievements from './pages/Achievements';
 
 export default function App() {
   return (
@@ -21,6 +22,9 @@ export default function App() {
           </Route>
           <Route path="/skills">
             <Skills />
+          </Route>
+          <Route path="/achievements">
+            <Achievements />
           </Route>
           <Route path="/projects">
             <Projects />

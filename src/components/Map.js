@@ -49,7 +49,7 @@ export default function Map() {
       <div className="container">
         <div className="map__card">
           <h3 className="map__card__heading">Here is me</h3>
-          <PText>Borivali, Mumbai, India</PText>
+          <PText>Dombivali, Mumbai, India</PText>
           <a
             className="map__card__link"
             href="https://www.google.com/maps/place/Devipada,+Borivali+East,+Mumbai,+Maharashtra+400066/@19.2246741,72.8654721,18z/data=!3m1!4b1!4m5!3m4!1s0x3be7b0ccfed8a61f:0xfba8fa1b5152c4b4!8m2!3d19.2241946!4d72.8670558"

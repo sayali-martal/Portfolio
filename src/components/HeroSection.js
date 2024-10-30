@@ -150,7 +150,7 @@ export default function HeroSection() {
           <div className="hero__info">
             <PText>
               I am a full stack developer from Mumbai, India. I create
-              desktop/mobile web tools. I love to code and like to learn new
+              responsive web tools. I love to code and like to learn new
               technologies. I'm looking forward to work on new challenges.
             </PText>
           </div>

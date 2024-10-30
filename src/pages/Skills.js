@@ -54,6 +54,8 @@ export default function Skills() {
                 title="FrontEnd"
                 items={[
                   'React JS',
+                  'redux saga',
+                  'Redux toolkit',
                   'Angular JS 1.0X',
                   'D3 JS',
                   'HTML',
@@ -74,7 +76,7 @@ export default function Skills() {
               />
               <AboutInfoItem
                 title="Servers"
-                items={['Apache', 'AWS', 'Netlify', 'PM2']}
+                items={['Apache', 'AWS', 'Netlify', 'PM2', 'Jenkins']}
               />
               <AboutInfoItem
                 title="Version Ctrl"
@@ -83,33 +85,6 @@ export default function Skills() {
               <AboutInfoItem
                 title="Data Analysis"
                 items={['Tableau', 'Python Machine Learning', 'Rasa']}
-              />
-            </div>
-
-            <div className="about__info__item">
-              <h1 className="about__info__heading">Certifications</h1>
-              <AboutInfoItem
-                title="2021"
-                items={[
-                  'D3Js Basics, Cousera',
-                  'Introduction to Big Data by University of California San Diego, Cousera',
-                ]}
-              />
-              <AboutInfoItem
-                title="2019"
-                items={[
-                  'Machine Learning A-Z™: Hands-On Python & R in Data Science, Udemy',
-                ]}
-              />
-              <AboutInfoItem
-                title="2018"
-                items={["CS50's Introduction to Computer Science, EDX"]}
-              />
-              <AboutInfoItem
-                title="2017"
-                items={[
-                  'Oracle Database 11g: Advanced PL/SQL,  Caliber Infotech Solution',
-                ]}
               />
             </div>
 

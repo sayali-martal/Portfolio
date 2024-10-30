@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/about-sec-img.png';
+import AboutImg from '../assets/images/about-sec-img.JPG';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -80,11 +80,13 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            Performance-driven and motivated Full Stack Developer with almost 6
-            years of extensive experience in participating in all phases of
-            software development. Possess a strong attention to detail,
-            well-developed time management skills, and ability to complete all
-            projects within schedule and in a timely manner.
+            Performance-driven Full Stack Developer with almost 7 years of
+            experience in all phases of software development. Known for
+            delivering high-quality solutions within deadlines, with strong
+            attention to detail and effective time management. Experienced in
+            leading teams, mentoring junior developers, and consistently
+            improving processes. Recognized for contributions to project success
+            with multiple awards and acknowledgments.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="My Work" btnLink="/experience" />

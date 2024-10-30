@@ -11,8 +11,6 @@ const ExperienceSectionStyles = styled.div`
   text-align: center;
   .experience__wrapper {
     position: relative;
-    max-width: 700px;
-    margin: 0 auto;
   }
   .experience__info {
     width: 100%;

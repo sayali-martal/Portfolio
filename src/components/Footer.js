@@ -83,7 +83,7 @@ export default function Footer() {
                 path: 'mailto:sayalimartal95@yahoo.com',
               },
               {
-                title: 'Borivali, Mumbai, India',
+                title: 'Dombivali, Mumbai, India',
                 path: 'http://google.com/maps',
               },
             ]}
