@@ -80,13 +80,13 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            Performance-driven Full Stack Developer with almost 7 years of
-            experience in all phases of software development. Known for
-            delivering high-quality solutions within deadlines, with strong
-            attention to detail and effective time management. Experienced in
-            leading teams, mentoring junior developers, and consistently
-            improving processes. Recognized for contributions to project success
-            with multiple awards and acknowledgments.
+            Performance-driven Full Stack Developer with 8+ years of experience
+            in all phases of software development. Known for delivering
+            high-quality solutions within deadlines, with strong attention to
+            detail and effective time management. Experienced in leading teams,
+            mentoring junior developers, and consistently improving processes.
+            Recognized for contributions to project success with multiple awards
+            and acknowledgments.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="My Work" btnLink="/experience" />
