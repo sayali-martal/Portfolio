@@ -41,11 +41,11 @@ const experiences = [
   {
     id: 4,
     company: 'Fractal analytics',
-    period: 'From 08/2021 – present, Mumbai',
+    period: 'From 08/2021 – 06/2025, Mumbai',
     designation: 'Full stack developer',
     client: 'Fractal, India | Verizon, USA',
     desc: [
-      'Led a team of 2 junior developers, ensuring project delivery and code quality.',
+      'Led a team of junior developers, ensuring project delivery and code quality.',
       'Modularized legacy code into reusable widget libraries, automating processes.',
       'Integrated OpenAI and PaLM models into a Python-based tool to provide automated question-response capabilities.',
       'Revamped UI and functionality by migrating systems, improving performance and user experience',
@@ -58,6 +58,21 @@ const experiences = [
       'Worked on migrating UI of web application from figma designs. Used react JS, CSS, flexbox, HTML for migration.',
       'Developed additional functionalities and tools into the react project. The webapp was made using the react context and the react component styles.',
       'Migrated the system backend from pre-existing PostgreSQL and Sequelize data structure to big query and SQL-bricks based data structure.',
+    ],
+  },
+  {
+    id: 5,
+    company: 'Onward Technologies',
+    period: 'From 06/2025 – present, Mumbai',
+    designation: 'Senior Software Engineer',
+    client: 'Caterpillar, USA',
+    desc: [
+      'Migrated 5 applications from Windows Server 2018 to Windows Server 2022, including cron jobs, SSL certificate configuration, host bindings, and CI/CD pipeline implementation in Azure DevOps, completing the migration within one month.',
+      'Migrated application authentication from legacy FED login to Microsoft (Azure AD) login, significantly improving security, scalability, and user access management.',
+      'Implemented RSA-based authentication for password-based Snowflake accounts, strengthening data security and regulatory compliance.',
+      'Took ownership of critical application errors and production issues, independently diagnosing and resolving them in the absence of the primary application developer.',
+      'Worked on 4 web applications, handling bug fixes, performance optimizations, and feature enhancements across multiple releases.',
+      'Cleaned up server disk space to maintain system stability, availability, and operational health.',
     ],
   },
 ];

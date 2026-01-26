@@ -68,7 +68,13 @@ export default function Skills() {
               />
               <AboutInfoItem
                 title="Database"
-                items={['SQL', 'PostgreSQL', 'Big query', 'MongoDb']}
+                items={[
+                  'SQL',
+                  'PostgreSQL',
+                  'Big query',
+                  'MongoDb',
+                  'Snowflake',
+                ]}
               />
               <AboutInfoItem
                 title="Frameworks"
@@ -76,7 +82,15 @@ export default function Skills() {
               />
               <AboutInfoItem
                 title="Servers"
-                items={['Apache', 'AWS', 'Netlify', 'PM2', 'Jenkins']}
+                items={[
+                  'Apache',
+                  'AWS',
+                  'Netlify',
+                  'PM2',
+                  'Jenkins',
+                  'Windows server',
+                  'Azure',
+                ]}
               />
               <AboutInfoItem
                 title="Version Ctrl"
