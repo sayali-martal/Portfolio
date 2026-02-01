@@ -9,6 +9,7 @@ const AboutItemStyles = styled.div`
   justify-content: flex-start;
   position: relative;
   margin-top: 3rem;
+  gap: 1rem;
   .title {
     font-size: 2.4rem;
   }
@@ -19,9 +20,15 @@ const AboutItemStyles = styled.div`
     position: initial;
   }
   .item {
-    background-color: var(--deep-dark);
+    // background-color: var(--deep-dark);
     padding: 1rem;
     border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     .para {
       max-width: inherit;
     }

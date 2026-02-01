@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
-import RobotoMonoRegular from '../assets/fonts/RobotoMono-Regular.ttf';
-import MontserratSemiBold from '../assets/fonts/Montserrat-SemiBold.ttf';
-import MontserratBold from '../assets/fonts/Montserrat-Bold.ttf';
+import RobotoMonoRegular from '../assets/fonts/GoogleSans-Regular.ttf';
+import MontserratSemiBold from '../assets/fonts/GoogleSans-SemiBold.ttf';
+import MontserratBold from '../assets/fonts/GoogleSans-Bold.ttf';
 
 const Typography = createGlobalStyle`
   @font-face {

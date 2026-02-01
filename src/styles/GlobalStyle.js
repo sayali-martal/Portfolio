@@ -7,17 +7,26 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: #262626;
-    --gray-1: #BCB4B4;
-    --deep-dark: #1E1E1E;
-    --gray-2: #363636;
-    --white : white;
-    --black: black;
+    // --white: #6B7B4E;
+    // --gray-1: #4A4A4A;
+    // --gray-2: #2B2B2B;
+    // --dark-bg: #E2DED9;
+    // --deep-dark: #B8B1AA;
+    // --black: #141414;
+        --white: cadetblue;
+    --gray-1: #4A4A4A;
+    --gray-2: #2B2B2B;
+    --dark-bg: aliceblue;
+    --deep-dark: powderblue;
+    --black: #141414;
   }
   html{
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Roboto Mono';
     background-color: var(--dark-bg);
+  }
+  body{
+  background: linear-gradient(135deg, #f0f8ff 0%, #dceaf4 35%, #b3d3df 55%, #e8f3f7 80%), radial-gradient(circle at 20% 20%, rgba(127, 179, 200, 0.18), transparent 55%);
   }
   ul,li{
     list-style: none;
@@ -28,13 +37,13 @@ const GlobalStyles = createGlobalStyle`
   img, svg{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    // object-fit: cover;
   }
   button{
     outline: none
   }
   .container {
-    max-width: 1200px;
+    max-width: 1500px;
     width: 90%;
     margin: 0 auto;
   }

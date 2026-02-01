@@ -6,7 +6,7 @@ import AboutInfoItem from '../components/AboutInfoItem';
 const ExperiencePageStyles = styled.div`
   padding: 0 0 10rem 0;
   .about__info__items {
-    margin-top: 15rem;
+    padding-top: 15rem;
   }
   .about__info__item {
     margin-top: 15rem;

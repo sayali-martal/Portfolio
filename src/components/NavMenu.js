@@ -10,9 +10,16 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background: var(--dark-bg);
+  // background: var(--dark-bg);
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(95, 158, 160, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2),
+    0 20px 40px rgba(15, 23, 42, 0.12);
   ul {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     width: 90%;
     text-align: center;
@@ -168,7 +175,7 @@ export default function NavMenu() {
           </NavLink>
         </li>
         <li>
-          <NavLink
+          {/* <NavLink
             to="/resume"
             onClick={() => setShowNav(!showNav)}
             role="button"
@@ -176,7 +183,14 @@ export default function NavMenu() {
             tabIndex={0}
           >
             Resume
-          </NavLink>
+          </NavLink> */}
+          <a
+            href="Sayali_Martal_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </li>
       </ul>
     </NavStyles>

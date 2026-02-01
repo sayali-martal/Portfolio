@@ -149,9 +149,9 @@ export default function HeroSection() {
           </h1>
           <div className="hero__info">
             <PText>
-              I am a full stack developer from Mumbai, India. I create
-              responsive web tools. I love to code and like to learn new
-              technologies. I'm looking forward to work on new challenges.
+              a Full Stack Developer based in Mumbai, India. I build reliable,
+              scalable web products with a strong focus on performance,
+              usability, and clean architecture.
             </PText>
           </div>
           <div className="hero__social">

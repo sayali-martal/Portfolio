@@ -1,10 +1,10 @@
 import { v4 as uuidv4 } from 'uuid';
-import PortfolioImg from '../images/portfolio.jpg';
-import TravelBlog from '../images/travelblog.jpg';
-import WebScrapping from '../images/webscrapping.jpg';
-import HousePrices from '../images/houseprices.jpg';
-import Xray from '../images/xray.jpg';
-import Comments from '../images/comments.jpg';
+import PortfolioImg from '../images/undraw_portfolio-feedback_4iok.svg';
+import TravelBlog from '../images/undraw_vintage_q09n.svg';
+import WebScrapping from '../images/undraw_website-visitors_qy9c.svg';
+import HousePrices from '../images/undraw_house-searching_g2b8.svg';
+import Xray from '../images/undraw_medical-research_pze7.svg';
+import Comments from '../images/undraw_sentiment-analysis_rke9.svg';
 
 const projects = [
   {

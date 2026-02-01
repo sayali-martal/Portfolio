@@ -1,12 +1,8 @@
 import React from 'react';
-import {
-  MdDesktopMac,
-  MdCode,
-  MdShowChart,
-  MdViewColumn,
-  MdHttps,
-} from 'react-icons/md';
 import styled from 'styled-components';
+import { LiaNetworkWiredSolid, LiaMixcloud } from 'react-icons/lia';
+import { SiAltiumdesigner, SiSpringsecurity } from 'react-icons/si';
+import { GiChart } from 'react-icons/gi';
 import SectionTitle from './SectionTitle';
 import ServicesSectionItem from './ServicesSectionItem';
 
@@ -33,32 +29,39 @@ export default function ServicesSection() {
   return (
     <ServicesItemsStyles>
       <div className="container">
-        <SectionTitle subheading="What I will do for you" heading="Services" />
+        <SectionTitle
+          subheading="What I bring to the table"
+          heading="Expertise"
+        />
         <div className="services__allItems">
           <ServicesSectionItem
-            icon={<MdDesktopMac />}
-            title="UI design"
-            desc="I can develope any UI designed by UX team."
+            icon={<SiAltiumdesigner style={{ fill: 'var(--white)' }} />}
+            title="Frontend Architecture"
+            desc="Design and build scalable, high-performance frontend applications using React and modern UI frameworks with a strong focus on UX and maintainability."
           />
+
           <ServicesSectionItem
-            icon={<MdCode />}
-            title="Python scripts"
-            desc="I can create python scripts for automating tasks."
+            icon={<LiaNetworkWiredSolid style={{ fill: 'var(--white)' }} />}
+            title="Backend Engineering & Automation"
+            desc="Develop reliable Python backends and automation workflows to streamline processes, reduce manual effort, and improve system stability."
           />
+
           <ServicesSectionItem
-            icon={<MdShowChart />}
-            title="Charts"
-            desc="Have extensive experience in using D3 JS and recharts."
+            icon={<GiChart style={{ fill: 'var(--white)' }} />}
+            title="Data Visualization & Analytics"
+            desc="Create insightful dashboards using D3.js and Recharts that translate complex data into clear, actionable business insights."
           />
+
           <ServicesSectionItem
-            icon={<MdHttps />}
-            title="Python API"
-            desc="Can design and develope rest APis using python."
+            icon={<SiSpringsecurity style={{ fill: 'var(--white)' }} />}
+            title="API Design, Security & CI/CD"
+            desc="Architect secure, scalable REST APIs and implement CI/CD pipelines to ensure reliable deployments and production-grade systems."
           />
+
           <ServicesSectionItem
-            icon={<MdViewColumn />}
-            title="Database"
-            desc="Optimise and create SQL queries"
+            icon={<LiaMixcloud style={{ fill: 'var(--white)' }} />}
+            title="Databases & Cloud Infrastructure"
+            desc="Optimize databases and lead server migrations across cloud and on-prem environments, ensuring performance, security, and minimal downtime."
           />
         </div>
       </div>

@@ -17,9 +17,9 @@ export default function App() {
         <NavMenu />
         <ScrollToTop />
         <Switch>
-          <Route path="/resume">
+          {/* <Route path="/resume">
             <Resume />
-          </Route>
+          </Route> */}
           <Route path="/skills">
             <Skills />
           </Route>

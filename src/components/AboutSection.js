@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from './Button';
 import PText from './PText';
 import SectionTitle from './SectionTitle';
-import AboutImg from '../assets/images/about-sec-img.JPG';
+import AboutImg from '../assets/images/undraw_buffer_dsav.svg';
 
 const AboutSectionStyles = styled.div`
   padding: 10rem 0;
@@ -80,16 +80,21 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            Performance-driven Full Stack Developer with 8+ years of experience
-            in all phases of software development. Known for delivering
-            high-quality solutions within deadlines, with strong attention to
-            detail and effective time management. Experienced in leading teams,
-            mentoring junior developers, and consistently improving processes.
-            Recognized for contributions to project success with multiple awards
-            and acknowledgments.
+            Full Stack Developer with 8+ years of experience building and
+            scaling production-ready web applications. Experienced across the
+            full development lifecycle — from requirements and system design to
+            deployment and maintenance.
+            <br />
+            Strong problem-solver with a product-first mindset, focused on
+            writing clean, maintainable code and delivering long-term value.
+            Comfortable owning features end-to-end, collaborating with
+            cross-functional teams, and mentoring developers.
+            <br />
+            Recognized multiple times with awards and organization-wide
+            acknowledgments for impactful contributions and consistent delivery.
           </PText>
           <div className="aboutSection__buttons">
-            <Button btnText="My Work" btnLink="/experience" />
+            <Button btnText="My Work" btnLink="/experience" outline />
             <Button btnText="Skills" btnLink="/skills" outline />
           </div>
         </div>

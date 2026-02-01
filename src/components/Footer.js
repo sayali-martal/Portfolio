@@ -4,8 +4,8 @@ import FooterCol from './FooterCol';
 import PText from './PText';
 
 const FooterStyle = styled.div`
-  background-color: var(--deep-dark);
-  padding-top: 10rem;
+  // background-color: var(--deep-dark);
+  // padding-top: 10rem;
   .container {
     display: flex;
     gap: 3rem;
@@ -21,12 +21,12 @@ const FooterStyle = styled.div`
     margin-bottom: 1rem;
   }
   .copyright {
-    background-color: var(--dark-bg);
+    // background-color: var(--dark-bg);
     text-align: left;
     padding: 1rem 0;
     margin-top: 5rem;
     .para {
-      margin-left: 0;
+      // margin-left: 0;
       max-width: none;
     }
   }
@@ -51,7 +51,7 @@ const FooterStyle = styled.div`
 export default function Footer() {
   return (
     <FooterStyle>
-      <div className="container">
+      {/* <div className="container">
         <div className="footer__col1">
           <FooterCol
             heading="Important Links"
@@ -104,10 +104,10 @@ export default function Footer() {
             ]}
           />
         </div>
-      </div>
+      </div> */}
       <div className="copyright">
         <div className="container">
-          <PText>© 2021 - Sayali Martal</PText>
+          <PText>Made with 💙 by Sayali Martal</PText>
         </div>
       </div>
     </FooterStyle>

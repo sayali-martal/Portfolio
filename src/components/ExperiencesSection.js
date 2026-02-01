@@ -19,6 +19,12 @@ const ExperienceSectionStyles = styled.div`
     background-color: var(--deep-dark);
     border-radius: 12px;
     margin-top: 5rem;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
   .experience__desc {
     .para {
@@ -53,15 +59,28 @@ const ExperienceSectionStyles = styled.div`
     .prev {
       margin: 0 0.5rem;
       width: fit-content;
-      background-color: var(--deep-dark);
+      // background-color: var(--deep-dark);
       padding: 0.5rem 2rem;
       border-radius: 8px;
       cursor: pointer;
+      box-shadow: rgba(255, 255, 255, 0.5) 4px 4px 6px 0px,
+        rgba(116, 125, 136, 0.2) -4px -4px 6px 0px,
+        rgba(255, 255, 255, 0.5) -4px -4px 6px 0px inset,
+        rgba(116, 125, 136, 0.3) 4px 4px 6px 0px inset;
     }
-
     .prev:hover,
     .next:hover {
-      box-shadow: 0px 0px 5px var(--gray-1);
+      // box-shadow: 0px 0px 5px var(--gray-1);
+      box-shadow: 0 0 12px rgba(95, 158, 160, 0.6),
+        0 0 32px rgba(127, 179, 200, 0.4);
+    }
+    .prev:hover:after,
+    .next:hover:after {
+      // box-shadow: 0px 0px 5px var(--gray-1);
+      -webkit-transform: scale(2) rotate(180deg);
+      transform: scale(2) rotate(180deg);
+      box-shadow: 0 0 12px rgba(95, 158, 160, 0.6),
+        0 0 32px rgba(127, 179, 200, 0.4);
     }
   }
   .fade-enter {
