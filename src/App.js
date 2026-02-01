@@ -6,7 +6,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Skills from './pages/Skills';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Resume from './pages/Resume';
+// import Resume from './pages/Resume';
 import Experience from './pages/Experience';
 import Achievements from './pages/Achievements';
 
