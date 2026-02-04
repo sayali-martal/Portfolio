@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import { PiGithubLogoBold, PiLinkedinLogoBold } from 'react-icons/pi';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
-import LinkdinLogo from '../assets/images/LinkdinLogo.jpg';
-import GithubLogo from '../assets/images/GithubLogo.png';
 import PText from './PText';
 
 const HeroStyles = styled.div`
@@ -66,6 +65,7 @@ const HeroStyles = styled.div`
       width: 16px;
       margin: 0 auto;
       object-fit: contain;
+      filter: brightness(0.5);
     }
   }
   .hero__scrollDown {
@@ -80,7 +80,7 @@ const HeroStyles = styled.div`
         margin-bottom: 1rem;
         a {
           display: inline-block;
-          font-size: 1.6rem;
+          font-size: 4rem;
           transform: rotate(-90deg);
           letter-spacing: 5px;
           margin-bottom: 2rem;
@@ -167,7 +167,7 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={GithubLogo} alt="GH" />
+                    <PiGithubLogoBold />
                   </a>
                 </li>
                 <li>
@@ -176,8 +176,8 @@ export default function HeroSection() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <img src={LinkdinLogo} alt="LI" />
-                  </a>
+                    <PiLinkedinLogoBold />
+                  </a>{' '}
                 </li>
               </ul>
             </div>
